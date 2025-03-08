@@ -1,6 +1,6 @@
 
 // Object types are there to describe the type of object that is getting used somewhere
-const info: { 
+const personObject: { 
     name: string;
     age: number;
  } = {
@@ -8,17 +8,27 @@ const info: {
     age: 30
 };
 
-console.log("The person's name is: " + info.name);
+console.log("The person's name is: " + personObject.name);
 
 // Array types
-const person = {
+const personArray: {
+    name: string;
+    age: number;
+    hobbies: string[];
+    role: [number, string]; // Tuple
+} = {
     name: "John Doe",
     age: 42,
-    hobbies: ['Sports', 'Cooking']
-}
-let favoriteActivities: any[] = ['Sports', 'Cleaning', 2];
-console.log(person.name);
+    hobbies: ['Sports', 'Cooking'],
+    role: [2, 'author'] // Tuple
+};
 
-for (const hobby of person.hobbies) {
+personArray.role.push('admin');
+//personArray.role[1] = 10;
+
+let favoriteActivities: string[] = ['Sports', 'Cleaning'];
+console.log(personArray.name, personArray.age, personArray.hobbies, personArray.role);
+
+for (const hobby of personArray.hobbies) {
     console.log(hobby.toUpperCase());
 }

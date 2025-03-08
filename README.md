@@ -118,6 +118,7 @@ TypeScript introduces a strong static type system. Some of the core types includ
 + **boolean**: *true* or *false*.
 + **object**: More specific types are possible.
 + **Array**: Any JavaScript array, type can be flexible or strict (regarding the element types)
++ **Tuple**: Fixed lenght and type array
 
 ### 2. Next-Gen JavaScript Features
 TypeScript supports modern JavaScript features, such as async/await, modules, and more.
@@ -163,7 +164,7 @@ To get the best learning experience, follow these tips:
 ---
 
 ## License
-This project is licensed by [MIT](https://)
+This project is licensed by [MIT](https://github.com/Olorunshogo/ts-course#MIT-1-ov-file)
 ---
 
 ## Acknowledgements
