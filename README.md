@@ -110,12 +110,13 @@ npm list autoprefixer postcss
 
 ### TypeScript Features
 
-### 1. Types
+### 1. Core Types
 TypeScript introduces a strong static type system. Some of the core types include:
 
-+ **Number**: All numbers, including integers and floats.
-+ **String**: Text values.
-+ **Boolean**: *true* or *false*.
++ **number**: All numbers, including integers and floats.
++ **string**: Text values.
++ **boolean**: *true* or *false*.
++ **object**: More specific types are possible
 
 ### 2. Next-Gen JavaScript Features
 TypeScript supports modern JavaScript features, such as async/await, modules, and more.

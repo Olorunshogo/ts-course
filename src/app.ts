@@ -1,28 +1,11 @@
 
-const number1 = 5; // All numbers are floats by boolean
-const number2 = 2.8;
+// Object types are there to describe the type of object that is getting used somewhere
+const person: { 
+    name: string;
+    age: number;
+ } = {
+    name: 'Maximilian',
+    age: 30
+};
 
-const printResult = true;
-
-const resultPhrase = 'Result is: ';
-
-function add(n1: number, n2: number, showResult: boolean, phrase: string) {
-    console.log(typeof number1);
-    // if (typeof n1 !== 'number' || typeof n2 !== 'number') {
-    //     throw new Error('Incorrect Input!');
-    // } else {
-    //     return n1 + n2;
-    // }
-    let result = n1 + n2;
-    if (showResult) {
-        console.log(phrase + result)
-    } else {
-        return result;
-    }
-}
-
-add(number1, number2, printResult, resultPhrase);
-
-
-
-
+console.log("The person's name is: " + person.name);
