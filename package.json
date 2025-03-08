@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.12",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.12"
+  },
+  "scripts": {
+    "tailwindcss": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "name": "ts-course",
+  "version": "1.0.0",
+  "description": "TypeScript Course for Beginners - Learn TypeScript from Scratch! by Academind Link: https://www.youtube.com/watch?v=BwuLxPH8IDs",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
