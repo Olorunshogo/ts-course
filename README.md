@@ -116,7 +116,8 @@ TypeScript introduces a strong static type system. Some of the core types includ
 + **number**: All numbers, including integers and floats.
 + **string**: Text values.
 + **boolean**: *true* or *false*.
-+ **object**: More specific types are possible
++ **object**: More specific types are possible.
++ **Array**: Any JavaScript array, type can be flexible or strict (regarding the element types)
 
 ### 2. Next-Gen JavaScript Features
 TypeScript supports modern JavaScript features, such as async/await, modules, and more.
