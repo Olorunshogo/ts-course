@@ -25,3 +25,10 @@ TypeScript Course for Beginners - Learn TypeScript from Scratch! by Academind Li
 + Webpack & TypeScript
 + Third-Party Libraries & TypeScript
 + React + TypeScript & NodeJS + TypeScript
+
+### How To Get The Most Out Of The Course
++ Watch the videos - At your speed!
++ Code Along - Pause & Rewind
++ Practice - Advance on your Own (Partly)
++ Debug & Search - Use attached Code, Google, Udemy Search
++ Ask & Answer - Ask in Q&A section, but also help others!

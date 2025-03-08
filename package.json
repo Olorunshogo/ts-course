@@ -6,7 +6,8 @@
     "tailwindcss": "^4.0.12"
   },
   "scripts": {
-    "tailwindcss": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "tailwindcss": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "start": "lite-server"
   },
   "name": "ts-course",
   "version": "1.0.0",
@@ -14,5 +15,8 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
