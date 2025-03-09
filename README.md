@@ -119,6 +119,7 @@ TypeScript introduces a strong static type system. Some of the core types includ
 + **object**: More specific types are possible.
 + **Array**: Any JavaScript array, type can be flexible or strict (regarding the element types)
 + **Tuple**: Fixed lenght and type array
++ **Enums**: Specific identifiers, global constants in use bin which it's best to assign a human-readable label
 
 ### 2. Next-Gen JavaScript Features
 TypeScript supports modern JavaScript features, such as async/await, modules, and more.
