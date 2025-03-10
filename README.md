@@ -143,6 +143,13 @@ TypeScript provides various configuration options, allowing you to tailor your e
 Even if you're not working with TypeScript directly, many modern tools and libraries support TypeScript for improved development experience.
 
 ---
+### Module Introduction
+1. Watch mode
+```bash
+  tsc app.ts --watch/--w
+```
+
+---
 
 ### Course Outline
 
