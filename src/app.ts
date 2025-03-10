@@ -25,6 +25,23 @@ function printUndefined(
 }
 printUndefined(12);
 
+// Function Types
+let combineValues: (a: numResult, b:numResult) => numResult;
+combineValues = add;
+// combineValues = printResult;
+// combineValues = 5;
 
+console.log('Combine Values is: ' + combineValues(8, 9));
 
-// let someValue: undefined;
+function addAndHandle(
+    n1: numResult,
+    n2: numResult,
+    cb: (num: numResult) => void // Dpn't do anything with the return type
+) {
+    const result = n1 + n2;
+    cb(result);
+}
+
+addAndHandle(10, 20, (result) => {
+    console.log('Add And Handle Result is: ' + result);
+});

@@ -121,6 +121,9 @@ TypeScript introduces a strong static type system. Some of the core types includ
 + **Tuple**: Fixed lenght and type array
 + **Enum**: Specific identifiers, global constants in use in which it's best to assign a human-readable label.
 + **Any**: It can store any type of value in there.
++ **Union**: It allows a variable to be one of several types.
++ **Literal**: A variable can only hold one specific value.
++ **Function**: To describe a variable that holds a function.
 
 ### 2. Next-Gen JavaScript Features
 TypeScript supports modern JavaScript features, such as async/await, modules, and more.
