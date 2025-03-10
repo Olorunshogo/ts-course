@@ -1,7 +1,7 @@
 type numResult = number;
 
 // Function Return Types and Void
-function add(
+function addFunction(
     n1: numResult, 
     n2:numResult
 ):number  {
@@ -15,7 +15,7 @@ function printVoid(
     console.log('Print Void is: ' + num);
     // return num;
 }
-printVoid(add(5, 13));
+printVoid(addFunction(5, 13));
 
 function printUndefined(
     num: numResult, 
@@ -27,7 +27,7 @@ printUndefined(12);
 
 // Function Types
 let combineValues: (a: numResult, b:numResult) => numResult;
-combineValues = add;
+combineValues = addFunction;
 // combineValues = printResult;
 // combineValues = 5;
 

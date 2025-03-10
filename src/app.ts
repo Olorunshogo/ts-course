@@ -1,5 +1,5 @@
 
-const userName = 'Max App';
-// userName = 3;
+var userFullName = 'Max App';
 
-console.log(userName);
+
+console.log(userFullName);

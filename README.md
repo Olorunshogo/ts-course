@@ -144,11 +144,15 @@ Even if you're not working with TypeScript directly, many modern tools and libra
 
 ---
 ### Module Introduction
-1. Watch mode
+1. Watch mode for a specific file
 ```bash
   tsc app.ts --watch/--w
 ```
 
+2. Compilling the Entire Project
+```bash
+  tsc --init
+```
 ---
 
 ### Course Outline
