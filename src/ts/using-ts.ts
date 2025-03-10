@@ -8,6 +8,6 @@ function addUsingTsc(num1: number, num2: number): number {
     return num1 + num2;
 }
 
-addButton.addEventListener("click", function() {
+addButton?.addEventListener("click", function() {
     console.log(addUsingTsc(+input1.value, +input2.value));
 });
