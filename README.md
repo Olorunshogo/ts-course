@@ -124,6 +124,8 @@ TypeScript introduces a strong static type system. Some of the core types includ
 + **Union**: It allows a variable to be one of several types.
 + **Literal**: A variable can only hold one specific value.
 + **Function**: To describe a variable that holds a function.
++ **Unknown**: Not sure the type of what's going to be entered but i know what I'm going to do with it.
+
 
 ### 2. Next-Gen JavaScript Features
 TypeScript supports modern JavaScript features, such as async/await, modules, and more.
