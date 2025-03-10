@@ -125,7 +125,7 @@ TypeScript introduces a strong static type system. Some of the core types includ
 + **Literal**: A variable can only hold one specific value.
 + **Function**: To describe a variable that holds a function.
 + **Unknown**: Not sure the type of what's going to be entered but i know what I'm going to do with it.
-
++ **Never**: This type represents values that never occur or situations that should never happen i.e. This should never be possible!
 
 ### 2. Next-Gen JavaScript Features
 TypeScript supports modern JavaScript features, such as async/await, modules, and more.

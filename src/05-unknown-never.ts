@@ -12,3 +12,12 @@ if (typeof userInput === 'string') {
 }
 
 // The Never Type
+type GenerateErr = string | number
+
+function generateError(
+    message: GenerateErr,
+    code: GenerateErr
+):never {
+    throw { message: message, errorCode: code}
+}
+generateError('An error occured! ', 500);
